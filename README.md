@@ -1,5 +1,8 @@
 # FindMyHotel
 
+![Captura de Tela 2024-07-25 às 17 01 43](https://github.com/user-attachments/assets/2a9cc2b0-2299-46c9-9c72-9c9366bd664a)
+
+
 Uma aplicação simples desenvolvida em Vue.js para simular um sistema de reserva de hotéis. O objetivo é oferecer uma interface funcional que permita pesquisar, comparar e reservar hotéis de maneira intuitiva.
 
 ## Tecnologias Utilizadas
