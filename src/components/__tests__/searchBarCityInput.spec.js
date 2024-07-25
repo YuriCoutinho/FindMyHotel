@@ -14,7 +14,6 @@ describe('SearchBarCityInput.vue', () => {
     setActivePinia(pinia)
     hotelStore = useHotelStore()
 
-    // Mocking hotelStore data and methods using $patch
     hotelStore.$patch({
       cities: ['New York', 'Los Angeles', 'Chicago'],
       selectedCity: ''
