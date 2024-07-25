@@ -1,44 +1,63 @@
-# findmyhotel
+# FindMyHotel
 
-This template should help get you started developing with Vue 3 in Vite.
+Uma aplicação simples desenvolvida em Vue.js para simular um sistema de reserva de hotéis. O objetivo é oferecer uma interface funcional que permita pesquisar, comparar e reservar hotéis de maneira intuitiva.
 
-## Recommended IDE Setup
+## Tecnologias Utilizadas
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- **Vue.js**: Framework JavaScript para construção de interfaces de usuário.
+- **Pinia**: Biblioteca de gerenciamento de estado para Vue.js.
+- **Vue Router**: Biblioteca de roteamento para Vue.js.
+- **TypeScript**: Superset do JavaScript que adiciona tipagem estática.
+- **Vite**: Ferramenta de build rápida e moderna.
+- **Tailwind CSS**: Framework de utilitários CSS para estilização rápida e responsiva.
+- **Vitest**: Ferramenta para testes unitários.
+- **ESLint**: Ferramenta de linting para manter a qualidade do código.
+- **Prettier**: Ferramenta de formatação de código.
 
-## Type Support for `.vue` Imports in TS
+## Configuração do Projeto
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+### Pré-requisitos
 
-## Customize configuration
+- Node.js (versão 14 ou superior)
+- npm (versão 6 ou superior) ou yarn (versão 1.22 ou superior)
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+### Instalação
 
-## Project Setup
+1. Clone o repositório.
+2. Navegue até o diretório do projeto.
+3. Instale as dependências:
 
-```sh
-npm install
-```
+   ```sh
+   npm install
+   ```
 
-### Compile and Hot-Reload for Development
+### Desenvolvimento
+
+Para iniciar o servidor de desenvolvimento com hot-reload:
 
 ```sh
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+### Build para Produção
+
+Para realizar a build do projeto e otimizar para produção:
 
 ```sh
 npm run build
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+### Testes Unitários
+
+Para executar os testes unitários com Vitest:
 
 ```sh
 npm run test:unit
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### Linting
+
+Para verificar e corrigir problemas de estilo de código:
 
 ```sh
 npm run lint
