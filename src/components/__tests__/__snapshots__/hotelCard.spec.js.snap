@@ -1,0 +1,18 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`HotelCard.vue > Should match the snapshot 1`] = `
+"<div class="flex w-full bg-white text-gray-800 border border-gray-300 rounded-lg overflow-hidden mb-4 flex-col md:flex-row transition-transform duration-200 hover:transform hover:-translate-y-1"><img src="hotel.jpg" alt="Hotel image" class="w-full md:w-48 object-cover">
+  <div class="p-4 flex-1">
+    <div class="flex items-center justify-between mb-2">
+      <h3 class="text-2xl">Hotel Test</h3>
+      <div class="flex items-center"><input type="checkbox" class="form-checkbox h-5 w-5 text-emerald-500 cursor-pointer"><label class="ml-2 text-gray-600">Comparar</label></div>
+    </div>
+    <p class="mb-2">4 estrelas</p>
+    <p class="text-xl font-bold mb-2">R$ 200</p>
+    <p class="mb-2">Check-in: 14:00 | Check-out: 12:00</p><button class="p-button p-component w-full md:w-28 bg-emerald-500 hover:bg-emerald-700 active:bg-emerald-900 text-white font-medium rounded-lg cursor-pointer p-3 mt-2" type="button" aria-label="Contratar" data-pc-name="button" data-p-disabled="false" data-pc-section="root" pc5="">
+      <!----><span class="p-button-label" data-pc-section="label">Contratar</span>
+      <!---->
+    </button>
+  </div>
+</div>"
+`;

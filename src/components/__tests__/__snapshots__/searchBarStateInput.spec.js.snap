@@ -1,0 +1,10 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`StateInput.vue > Should matches snapshot 1`] = `
+"<div class="p-autocomplete p-component p-inputwrapper" style="position: relative;" data-pc-name="autocomplete" data-pc-section="root" pc3=""><input type="text" class="p-inputtext p-component p-autocomplete-input w-full md:w-40 text-gray-700 font-medium border rounded-lg px-3 py-2 focus:outline-none focus:ring-1 focus:ring-emerald-500" placeholder="Estado de destino" tabindex="0" autocomplete="off" role="combobox" aria-haspopup="listbox" aria-autocomplete="list" aria-expanded="false" aria-controls="undefined_panel" data-pc-name="pcinput" data-pc-extend="inputtext" data-pc-section="root" value="">
+  <!---->
+  <!---->
+  <!----><span role="status" aria-live="polite" class="p-hidden-accessible" data-pc-section="hiddensearchresult" data-p-hidden-accessible="true">No results found</span>
+  <!---->
+</div>"
+`;

@@ -1,0 +1,6 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`DateInputs.vue > Should match the snapshot 1`] = `
+"<div class="flex flex-row items-center gap-4 justify-between md:justify-start"><label for="CheckIn">CheckIn</label><input type="text" class="p-inputtext p-component p-inputmask w-32 text-gray-700 font-medium focus:outline-none focus:ring-1 border rounded-lg px-3 py-2 focus:ring-emerald-500" placeholder="dd/mm/yyyy" data-pc-name="pcinputtext" data-pc-extend="inputtext" data-pc-section="root" value=""></div>
+<div class="flex flex-row items-center gap-4 justify-between md:justify-start"><label for="CheckOut">CheckOut</label><input type="text" class="p-inputtext p-component p-inputmask w-32 text-gray-700 font-medium focus:outline-none focus:ring-1 border rounded-lg px-3 py-2 focus:ring-emerald-500" placeholder="dd/mm/yyyy" data-pc-name="pcinputtext" data-pc-extend="inputtext" data-pc-section="root" value=""></div>"
+`;
